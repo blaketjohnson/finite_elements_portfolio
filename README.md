@@ -102,5 +102,10 @@ Replicates homework + exam derivations as working Python code.
 
 ---
 
+## 📌 About the Author
+This project is part of a portfolio in **orbital mechanics, mission design, and aerospace systems engineering**.  
+More projects available at: [GitHub Portfolio](https://github.com/blaketjohnson)
+
+
 ## 📜 License
 MIT License — see [LICENSE](LICENSE).
