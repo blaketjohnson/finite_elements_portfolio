@@ -1,4 +1,4 @@
-# Finite Element Portfolio 🧮⚙️
+# Finite Element Portfolio
 
 [![Status](https://img.shields.io/badge/status-stable-brightgreen)](#)
 [![Last commit](https://img.shields.io/github/last-commit/blaketjohnson/finite_elements_portfolio)](#)
@@ -15,7 +15,7 @@ Designed as a professional portfolio piece to highlight FEM fundamentals, coding
 
 ---
 
-## ✨ Highlights for Recruiters
+## Highlights for Recruiters
 - Implements **T3, Q4, T6 elements** with isoparametric mapping & Jacobians.  
 - Supports **plane stress/strain** and **heat conduction** constitutive laws.  
 - Includes **Q4 patch test (exact)** and **convergence study** on a cantilever.  
@@ -26,7 +26,7 @@ This repo shows core engineering skills in **numerical methods, verification & v
 
 ---
 
-## 📊 Example Results
+## Example Results
 
 ### Heat Conduction
 <p align="center">
@@ -54,7 +54,7 @@ This repo shows core engineering skills in **numerical methods, verification & v
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/blaketjohnson/finite_elements_portfolio.git
@@ -76,14 +76,14 @@ Outputs (PNGs) will be saved into `docs/`.
 
 ---
 
-## 🧠 Methods (Skimmable)
+## Methods (Skimmable)
 - Shape functions & derivatives: `∇N = J⁻¹ ∇̂N`  
 - Stiffness assembly: `Ke = ∫ Bᵀ D B |J| dΩ` (structural), `Ke = ∫ (∇N)ᵀ k (∇N) |J| dΩ` (conduction)  
 - Quadrature rules: Q4 (2×2), T3 (1-pt, 3-pt), T6 (custom visualization)  
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 finite_elements_portfolio/
@@ -96,16 +96,16 @@ finite_elements_portfolio/
 
 ---
 
-## 📑 Background
+## Background
 Methods derived from **AME 5763 Finite Element Methods** (University of Oklahoma).  
 Replicates homework + exam derivations as working Python code.
 
 ---
 
-## 📌 About the Author
+## About the Author
 This project is part of a portfolio in **orbital mechanics, mission design, and aerospace systems engineering**.  
 More projects available at: [GitHub Portfolio](https://github.com/blaketjohnson)
 
 
-## 📜 License
+## License
 MIT License — see [LICENSE](LICENSE).
